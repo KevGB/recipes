@@ -1,3 +1,137 @@
-.headerDiv {
-    background-image: ;
+.menu {
+  padding: 2px 0px;
+  background-color: lightseagreen;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 100;
+  padding: 50;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-size: large;
+}
+
+ol li {
+  align-items: left;
+  color: black;
+  display: list-item;
+  list-style-position: inside;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#lentils {
+  background-image: url(../media/lentils.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#coconut {
+  background-image: url(../media/coconut.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#fruit {
+  background-image: url(../media/fruitsalad.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#egg {
+  background-image: url(../media/eggs.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#peanut {
+  background-image: url(../media/peanutbutter.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#proteinpowder {
+  background-image: url(../media/proteinpowder.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  color: white;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-self: right;
+  background-color: saddlebrown;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.recipe {
+  display: flex;
+  justify-self: top left;
+  background-color: bisque;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.recipeDiv {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-direction: row;
 }
