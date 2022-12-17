@@ -1,5 +1,5 @@
 # recipes
-##Recipe Website for the Odin Project
+## Recipe Website for the Odin Project
 
 This is a super simple website for a collection of recipes. These are recipes for nutritious, yet easy and (usually) quick dishes I can make for myself so that I can spend more time studying The Odin Project, and less time in the kitchen.
 
